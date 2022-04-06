@@ -21,3 +21,12 @@ body {
     padding:5%;
     text-align: left;
 }
+
+.button {
+    background-color: #3a00e9;
+    background-image: linear-gradient(160deg, #1a005b 0%, #21b0c6 100%);
+    padding: 10%;  
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+}
