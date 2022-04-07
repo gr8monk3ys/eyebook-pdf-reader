@@ -23,10 +23,13 @@ body {
 }
 
 .button {
-    background-color: #3a00e9;
+    /* background-color: #3a00e9; */
     background-image: linear-gradient(160deg, #1a005b 0%, #21b0c6 100%);
-    padding: 10%;  
+    margin: 5% ;  
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 80px ;
     text-align: center;
+    border-radius: 2em !important;
+    height: 4em !important ;
+    width: 12em !important;
 }
