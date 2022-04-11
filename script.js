@@ -8,6 +8,23 @@ const BOTTOM_CUTOFF = window.innerWidth / 3;
 const LOOK_DELAY = 1350;
 let lookDirection = null;
 let startLookTimer = Number.POSITIVE_INFINITY;
+$("#bookfile").on("input", function() {
+	console.log($(this).val()); 
+ });
+
+function openFile(){
+	const framebook = document.querySelector('iframe')
+	const filebook = document.querySelector('input[type=file]').files[0]
+	const reader = new FileReader()
+
+	reader.addEventListener("load",function(){
+		framebook.src = reader.result
+	},false)
+
+	if(filebook){
+		reader.readAsDataURL(filebook);
+	}
+}
 
 // Function for logging the x and y coordinates of our eyes
 webgazer
