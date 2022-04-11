@@ -8,9 +8,7 @@ const BOTTOM_CUTOFF = window.innerWidth / 3;
 const LOOK_DELAY = 1350;
 let lookDirection = null;
 let startLookTimer = Number.POSITIVE_INFINITY;
-$("#bookfile").on("input", function() {
-	console.log($(this).val()); 
- });
+
 
 function openFile(){
 	const framebook = document.querySelector('iframe')
