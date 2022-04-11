@@ -1,6 +1,6 @@
 body {
-    margin-left: 15%;
-    /* display: flex; */
+    margin-left: 320px;
+    /* display: flex; 240heght*/
     /* justify-content: center; */
     /* overflow: hidden; */
     font-family: 'Roboto', sans-serif;
@@ -18,7 +18,8 @@ body {
 
 .main-text {
     font-size: 30px;
-    padding:5%;
+    padding:0%;
+    height: 700px;
     text-align: left;
 }
 
