@@ -4,25 +4,38 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://webgazer.cs.brown.edu/webgazer.js?" defer></script>
+  		<script src="script.js" defer></script>
 		<link rel="stylesheet" href="style.css" />
 
 		<title>Eyebook Reader</title>
 	</head>
 	<body>
-
-		<div>
-			<input id="file-book" onchange="openFile()" type="file" accept=".pdf">
+		<div class="header">
+			<h1>Eyebook Reader</h1>
+			<p>This is an eye tracking demo for being able to manipulate scroll for reading text</p>
 		</div>
 		<div class="main-text">
-			<iframe src="" id="iframe-book" style="width: 100%;height: 100%;border: none;"></iframe>
+			<input id="file-book" onchange="openFile()" type="file" accept=".pdf">
+			<!-- <iframe src="" id="iframe-book"></iframe> -->
+			<p>Gravida aliquam accumsan porta, ad tincidunt placerat, fames diam felis purus interdum sapien in. Congue morbi nostra tortor, posuere maecenas faucibus feugiat elementum. Proin eget taciti dolor, habitasse a cursus vitae condimentum. Laoreet suspendisse curabitur auctor, adipiscing justo tincidunt, libero pretium risus condimentum ipsum accumsan. Aptent lacinia in, tempus lectus, dapibus mollis suscipit ullamcorper aliquet rutrum pretium. Platea ipsum molestie, blandit duis fringilla inceptos. Quis quam nisl, rutrum erat sodales platea. Ad duis tincidunt, condimentum cursus arcu habitant. Volutpat curabitur eleifend, quis etiam, sit fermentum torquent massa fames habitant est.
+	
+				Id curabitur, leo placerat morbi luctus. Habitasse duis habitant lorem, suscipit ullamcorper donec iaculis lacinia. Integer quisque potenti, etiam lorem, lacinia posuere laoreet at eros platea. Euismod iaculis donec, adipiscing aenean phasellus curabitur risus. Arcu euismod sodales, porttitor curae cubilia risus cursus.
+				
+				Gravida taciti feugiat, fames aliquam nisi ullamcorper. Aliquet rutrum class suscipit, tempor tellus vitae, imperdiet elementum turpis vel curabitur ad. Blandit justo senectus, dolor facilisis aliquet cursus. Sagittis quisque elementum, phasellus vivamus, habitant semper purus tristique pretium amet. Donec litora cursus, dictum dictumst, bibendum mauris magna vestibulum etiam consequat. Metus curae aliquam rhoncus, donec justo proin ante interdum. Aliquam malesuada porta, cursus feugiat, neque habitasse curabitur hendrerit viverra dapibus id. Himenaeos massa turpis, ipsum aliquet, fermentum sollicitudin lacus ullamcorper suspendisse primis dolor.
+				
+				Ligula dapibus, felis massa mauris leo. Porttitor vel vitae, sed facilisis, tempor donec per netus malesuada posuere. Donec quisque id integer, curae rutrum ullamcorper, neque habitant praesent aenean mi vitae urna curabitur. Pellentesque nam rutrum eu, porttitor amet venenatis, himenaeos felis eros nisi elit interdum sit. Aliquam tellus, mollis arcu enim. Duis dui primis, aenean scelerisque, taciti pulvinar platea donec nibh et. Congue lacinia eu dapibus, ultrices purus tellus, aliquet tortor tincidunt ligula suspendisse facilisis.
+				
+				Neque vel lorem, semper sodales, augue suspendisse bibendum viverra nullam taciti. Duis aliquet volutpat sed, hendrerit ornare sapien, egestas vehicula quisque tristique habitasse a. Lacus vestibulum aliquam risus, hendrerit hac nibh, ad ullamcorper quisque erat nisi tristique posuere volutpat. Aenean egestas, et bibendum fringilla. Lorem diam, eu purus himenaeos. Venenatis ac etiam, maecenas auctor, ante felis neque porta aliquam tristique. Posuere vestibulum, justo convallis mattis arcu. Conubia ad eu, at posuere, aptent facilisis faucibus ligula platea. Placerat lacinia nunc id, dictum ac enim, lectus nullam dictumst hendrerit volutpat ante. Ultrices suscipit class, ligula mauris a iaculis.
+				
+				Placerat eleifend, bibendum per euismod. Faucibus est convallis, et aliquam, cursus rutrum sollicitudin dolor turpis venenatis sit. Donec suscipit justo, lacinia imperdiet, risus varius dictum viverra fringilla. Sagittis diam elementum, ad suspendisse odio maecenas. Elementum pharetra curae, conubia enim elit purus. Porta vehicula metus, tempor pulvinar, facilisis a orci adipiscing quis malesuada fermentum. Nunc ligula senectus pretium, mi nisl dapibus euismod ultricies. Lorem vivamus etiam, urna eu ut massa curabitur. Interdum porta eu, sapien dui ornare luctus proin. Eleifend eu suspendisse, urna conubia sociosqu nisi pretium.
+				
+				Dictum enim bibendum, amet velit, nisl vitae sapien lacus fames. Sagittis ullamcorper consectetur, semper condimentum, integer ipsum pretium tempus tellus. Laoreet potenti, ornare nibh torquent. Risus sociosqu arcu, porta velit tristique quis. Fusce vulputate, lorem eu consequat vitae. Vehicula urna integer, venenatis sed, class est consequat ornare risus porttitor inceptos. Est eu magna, ultrices molestie aenean praesent. Non at, mattis quisque faucibus.
+				
+				Nam eros fermentum, curae per, quisque aliquam eu taciti donec. Duis et sodales, ante egestas, accumsan hac lectus dolor in. Ullamcorper feugiat, massa mollis urna etiam. Ut conubia, sodales in quisque porta. Ante dictumst sociosqu, et aenean enim sollicitudin rhoncus. Condimentum velit euismod senectus, convallis ipsum donec, aptent sagittis ac risus consequat metus
+			</p>
+			<button id="main" onclick="goBack()" class="custom-btn btn-3">Go Back Up</button>
 		</div>
-		<button onclick="" class="button">back to Main</button>
-
-		<script
-			src="https://webgazer.cs.brown.edu/webgazer.js?"
-			type="text/javascript"
-			defer
-		></script>
-		<script src="script.js" defer></script>
+		<!-- <a href="#" class="btn-3" role="button">Main Menu</a> -->
 	</body>
 </html>
