@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+input,
+.start{
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: grey;
+    border: none;
+    color:white;
+    padding: 10px;
+    transition: .5s;
+    text-transform:capitalize;
+}
+
+input:focus,
+.start:hover{
+    color: black;
+    background: #fff;
+}
+
+.start{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin: 25px auto;
+    font-weight: 200px;
+    font-size: 20px;
+}
